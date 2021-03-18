@@ -1,0 +1,12 @@
+#line 1 "vendor/xiaomi/proprietary/mifingerprint/sepolicy/service_contexts"
+com.goodix.FingerprintService                               u:object_r:goodix_fingerprint_service:s0
+
+#line 1 "vendor/xiaomi/proprietary/interfaces/displayfeature/1.0/sepolicy/service_contexts"
+# xiaomi Services
+DisplayFeatureControl                          u:object_r:DisplayFeatureControl_service:s0
+#line 1 "vendor/xiaomi/proprietary/slm/sepolicy/service_contexts"
+sla_management                                       u:object_r:sla_service:s0
+#line 1 "system/sepolicy/reqd_mask/service_contexts"
+# empty service_contexts file - this file is used to generate an empty
+# non-platform service_context for devices without any service_contexts
+# customizations.
